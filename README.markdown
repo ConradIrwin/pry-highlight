@@ -1,4 +1,4 @@
-The Pry-higlight gem (`gem install pry-highlight`) adds a `higlight` command (aka. `>>`) to Pry.
+The Pry-higlight gem (`gem install pry-highlight`) adds a `highlight` command (aka. `>>`) to Pry.
 
 This intelligently formats and colourizes the result, so you don't have to.
 
