@@ -58,8 +58,6 @@ Pry::Commands.command ">>", "highlight string output", :shellwords => false do |
     output.puts CodeRay.scan(value, type).term
   elsif String === value
     output.puts value
-  else
-    Pry::Config.print.call(output, value)
   end
 end
 
