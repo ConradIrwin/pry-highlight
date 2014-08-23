@@ -10,7 +10,7 @@ Pry::Commands.command ">>", "highlight string output", :shellwords => false do |
     opt.on :h, :help do
       puts opt.help
     end
-    opt.on :t, :type, true
+    opt.on :t, :type=
   end
   next if opts[:h]
 
